@@ -18,14 +18,38 @@ Feature: Log In
     Then User will navigate to multi factor authentication modal
 
   # This is imperative BDD, line by line description
-  @sanity
+  @functional
   Scenario: Login with fixed Valid Credential
     When User enter UserId as 'Narima.tushty@gmail.com'
     And User enter Password as 'Login@123456789'
     And User click the check box of I agree to the Terms and Conditions
     And User finally click on Login Button
     Then User will navigate to multi factor authentication modal
-
+   @integration
+  Scenario: Login with fixed Valid Credential
+    When User enter UserId as 'Narima.tushty@gmail.com'
+    And User enter Password as 'Login@123456789'
+    And User click the check box of I agree to the Terms and Conditions
+    And User finally click on Login Button
+    Then User will navigate to multi factor authentication modal
+    
+    @retesting
+  Scenario: Login with fixed Valid Credential
+    When User enter UserId as 'Narima.tushty@gmail.com'
+    And User enter Password as 'Login@123456789'
+    And User click the check box of I agree to the Terms and Conditions
+    And User finally click on Login Button
+    Then User will navigate to multi factor authentication modal
+    
+	@sanity
+  Scenario: Login with fixed Valid Credential
+    When User enter UserId as 'Narima.tushty@gmail.com'
+    And User enter Password as 'Login@123456789'
+    And User click the check box of I agree to the Terms and Conditions
+    And User finally click on Login Button
+    Then User will navigate to multi factor authentication modal
+	
+	
 	@smoke
   Scenario Outline: Login with sets of Valid Credential
     When User enter UserId as <User Id>

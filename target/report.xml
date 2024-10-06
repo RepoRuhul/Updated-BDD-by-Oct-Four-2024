@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="424.455" tests="6" skipped="0" failures="0" errors="0">
-<testcase classname="Log In" name="Login with valid credentials" time="48.797">
+<testsuite name="Cucumber" time="217.034" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Log In" name="Login with valid credentials" time="23.148">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal homepage URL.....................passed
 When User enter UserId in the UserId field..................................passed
@@ -10,7 +10,7 @@ And User finally click on Login Button......................................pass
 Then User will navigate to multi factor authentication modal................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Log In" name="Login with fixed Valid Credential" time="51.855">
+<testcase classname="Log In" name="Login with fixed Valid Credential" time="21.633">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal homepage URL.....................passed
 When User enter UserId as 'Narima.tushty@gmail.com'.........................passed
@@ -20,7 +20,7 @@ And User finally click on Login Button......................................pass
 Then User will navigate to multi factor authentication modal................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Log In" name="Login with sets of Valid Credential - #1.1" time="44.639">
+<testcase classname="Log In" name="Login with sets of Valid Credential - #1.1" time="21.662">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal homepage URL.....................passed
 When User enter UserId as 'shampa.afroz82@gmail.com'........................passed
@@ -30,7 +30,7 @@ And User finally click on Login Button......................................pass
 Then User will navigate to multi factor authentication modal................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Log In" name="Login with sets of Valid Credential - #1.2" time="44.348">
+<testcase classname="Log In" name="Login with sets of Valid Credential - #1.2" time="21.674">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal homepage URL.....................passed
 When User enter UserId as 'S_1999'..........................................passed
@@ -40,7 +40,7 @@ And User finally click on Login Button......................................pass
 Then User will navigate to multi factor authentication modal................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Log In" name="Login with sets of Valid Credential - #1.3" time="47.55">
+<testcase classname="Log In" name="Login with sets of Valid Credential - #1.3" time="21.659">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal homepage URL.....................passed
 When User enter UserId as 'Narima.tushty@gmail.com'.........................passed
@@ -50,7 +50,7 @@ And User finally click on Login Button......................................pass
 Then User will navigate to multi factor authentication modal................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As an user" name="User click on Next Button in Step Two by puting value in each field" time="186.448">
+<testcase classname="As an user" name="User click on Next Button in Step Two by puting value in each field" time="107.016">
 <system-out><![CDATA[
 Given User is on the CMS Enterprise Portal page.............................passed
 When User click on New User Registration Button.............................passed
